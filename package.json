@@ -1,6 +1,9 @@
 {
   "name": "dante",
   "version": "0.0.2",
+  "scripts": {
+    "start": "node server-socketio.js"
+  },
   "dependencies": {
     "faye-websocket": "0.4.3",
     "socket.io": "0.9.13"
